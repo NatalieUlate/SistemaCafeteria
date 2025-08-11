@@ -4,6 +4,9 @@
  */
 package app;
 
+import ui.LoginVentana;
+import ui.ventanaPrincipal;
+
 /**
  *
  * @author Natalie Ulate Rojas
@@ -14,7 +17,10 @@ public class CafeteriaUniversitaria {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       LoginVentana vp = new LoginVentana();
+       vp.setVisible(true);
+       vp.setResizable(false);
+       vp.setLocationRelativeTo(null);
     }
     
 }
